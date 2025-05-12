@@ -1,0 +1,12 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden; /* Prevent horizontal scrollbar if any component slightly overflows */
+}
+
+/* Fix for Footer taking full width if content is less */
+.App > main {
+  flex-grow: 1;
+}

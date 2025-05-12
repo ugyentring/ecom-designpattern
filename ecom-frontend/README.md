@@ -1,0 +1,1 @@
+Design pattern project ====> Ecommerce website using ReactJS + Vite in the frontend and Springboot in the backend
